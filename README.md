@@ -13,6 +13,7 @@ x.init();
 > **注意：**
 
 ```<img src="img/load.jpg" alt="img" lazy-src="img/goods001.jpg" height="640px">```
+
 **src 属性放预加载的图片，lazy－src放实际展示的图片**
 
 
