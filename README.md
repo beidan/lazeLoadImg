@@ -2,7 +2,8 @@
 图片懒加载（图片出现在可视区域再加载）
 
 #### 使用方法：
-- 引入相应的js文件  ```<script src="js/lazeload.js"></script>```
+- 引入相应的js文件  
+```<script src="js/lazeload.js"></script>```
 
 - 初始化
 ```
