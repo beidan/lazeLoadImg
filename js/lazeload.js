@@ -1,3 +1,7 @@
+/**
+ * @author beidan
+ * @description 图片懒加载
+ */
 ;(function () {
     function LazyLoad() {
     }
