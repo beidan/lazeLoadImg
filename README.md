@@ -1,6 +1,9 @@
 # lazeLoadImg
 图片懒加载（图片出现在可视区域再加载）
 
+#### 兼容性：兼容目前流行的全部浏览器，包括：IE、Firefox、Safari、Opera、Chrome）
+##### 如果使用过程中有发现bug，请告诉我～谢谢！
+
 #### 使用方法：
 - 引入相应的js文件  
 ```<script src="js/lazeload.js"></script>```
