@@ -1,12 +1,12 @@
 ;(function () {
-    function lazyLoad() {
+    function LazyLoad() {
     }
 
     var download_count = 0,
         ele_obj = [];
 
 
-    lazyLoad.prototype = {
+    LazyLoad.prototype = {
         init: function () {   //放一些初始化的方法
             this.initElementMap();
             this.lazy();
@@ -73,7 +73,7 @@
             var innerHeight = this.getPosition.Viewport();
             for (var i = 0, len = ele_obj.length; i < len; i++) {
                 var t_index = this.getPosition.ElementViewTop(ele_obj[i]); //得到图片相对document的距上距离
-                if (t_index - this.getPosition.ScrollTop() < innerHeight) {
+                if (t_index  < innerHeight) {
                     ele_obj[i].src = ele_obj[i].getAttribute("lazy-src");
                     delete ele_obj[i];
                     download_count--;
@@ -84,11 +84,11 @@
         slowLoad: function () {
             window.onscroll = window.onload = function () {
                 setTimeout(function () {
-                    lazyLoad.prototype.lazy();
+                    LazyLoad.prototype.lazy();
                 }, 1000)
             }
         },
     };
-    window.lazyLoad = lazyLoad;
+    window.LazyLoad = LazyLoad;
 })()
 
