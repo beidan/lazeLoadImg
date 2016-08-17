@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd9875ba-e2e5-48a7-af4a-30730475fe2d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lazeload.js" afterPath="$PROJECT_DIR$/js/lazeload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laze.html" afterPath="$PROJECT_DIR$/laze.html" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +25,8 @@
       <file leaf-file-name="laze.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laze.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="420">
+              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -37,8 +35,8 @@
       <file leaf-file-name="lazeload.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/lazeload.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+            <state relative-caret-position="225">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -221,12 +219,12 @@
       <option name="presentableId" value="Default" />
       <updated>1467775886145</updated>
       <workItem from="1470281575204" duration="3696000" />
-      <workItem from="1471400240653" duration="939000" />
+      <workItem from="1471400240653" duration="1961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4635000" />
+    <option name="totallyTimeSpent" value="5657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="58" width="1345" height="754" extended-state="0" />
@@ -288,16 +286,16 @@
     <entry file="file://$PROJECT_DIR$/lazeload.js" />
     <entry file="file://$PROJECT_DIR$/laze.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="420">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/lazeload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+        <state relative-caret-position="225">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding />
         </state>
       </provider>

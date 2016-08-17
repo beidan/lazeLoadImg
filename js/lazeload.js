@@ -28,6 +28,10 @@
              element.offsetTop  //获取元素与其偏移参考父元素顶部的间隔距离  可以获取元素距其上一级的偏移参考父元素顶部的距离。包括：margin[top] + top
              element.offsetLeft  //获取元素与其偏移参考父元素左边的间隔距离
              */
+            /*官方解释
+            * document.compatMode等于BackCompat时，浏览器客户区宽度是document.body.clientWidth；
+            * document.compatMode等于CSS1Compat时，浏览器客户区宽度是document.documentElement.clientWidth。
+            * */
             Viewport: function () {
                 if (document.compatMode == "BackCompat") {
                     var Height = document.body.clientHeight;
@@ -38,9 +42,11 @@
             },
             ScrollTop: function () {
                 if (document.compatMode == "BackCompat") {
-                    var elementScrollTop = document.documentElement.scrollTop;
-                } else {
                     var elementScrollTop = document.body.scrollTop;
+
+                } else {
+                    var elementScrollTop = document.documentElement.scrollTop == 0 ? document.body.scrollTop:document.documentElement.scrollTop;
+
                 }
                 return elementScrollTop;
             },
