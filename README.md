@@ -57,8 +57,8 @@ x.init();
     throttle1(val); //此处传人的参数为以上fn需要传人的参数
     
 ```
-
-
-
 - 详细内容见博客地址
 [博客园地址](http://www.cnblogs.com/beidan/p/5648240.html)
+
+
+[函数节流参考文章](http://www.alloyteam.com/2012/11/javascript-throttle/#prettyPhoto) 
