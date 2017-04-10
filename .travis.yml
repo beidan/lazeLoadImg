@@ -15,7 +15,7 @@ after_script:
 
 branches:
   only:
-    - blog-source
+    - test
 
 env:
  global:
