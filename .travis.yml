@@ -11,6 +11,7 @@ after_script:
   - git add .
   - git commit -m "Update"
   - git push --force --quiet "https://${gh}@${GH_REF}" master:master
+# E: Build LifeCycle
 
 branches:
   only:
