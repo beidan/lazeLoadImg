@@ -3,8 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>lazeLoadExample</title>
+
+    <style>
+        .placeholder {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            padding-top: 100%;
+        }
+
+        .placeholder img {
+            display: block;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    </style>
 </head>
 <body>
+<h3>图片懒加载</h3>
+<div class="placeholder">
+    <img src="img/load.jpg" alt="img" lazy-src="img/goods001.jpg">
+</div>
+<img src="img/load.jpg" alt="img" lazy-src="img/goods001.jpg" height="640px">
+
 <img src="img/load.jpg" alt="img" lazy-src="img/goods001.jpg" height="640px">
 <img src="img/load.jpg" alt="img" lazy-src="img/goods001.jpg" height="640px">
 <img src="img/load.jpg" alt="img" lazy-src="img/goods001.jpg" height="640px">

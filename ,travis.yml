@@ -1,0 +1,18 @@
+language: node_js  //语言类型
+
+notifications:      # 每次构建的时候是否通知，如果不想收到通知邮箱（个人感觉邮件贼烦），那就设置false吧
+  email: false
+
+
+after_script:
+  - git init
+  - git config user.name "beidan"
+  - git config user.email "m18814127307@163.com"
+  - git add .
+  - git commit -m "Update"
+  - git push --force --quiet "https://${gh}@${GH_REF}" master:master
+
+
+env:
+ global:
+   - GH_REF: github.com/beidan/lazeLoadImg
