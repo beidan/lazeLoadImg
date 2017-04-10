@@ -12,6 +12,9 @@ after_script:
   - git commit -m "Update"
   - git push --force --quiet "https://${gh}@${GH_REF}" master:master
 
+branches:
+  only:
+    - blog-source
 
 env:
  global:
