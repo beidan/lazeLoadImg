@@ -15,4 +15,4 @@ after_script:
 
 env:
  global:
-   - GH_REF: github.com/beidan/lazeLoadImg
+   - GH_REF: github.com/beidan/lazeLoadImg.git
