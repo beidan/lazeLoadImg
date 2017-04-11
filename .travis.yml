@@ -5,12 +5,9 @@ notifications:
 before_script:
  - git config user.name "beidan"
  - git config user.email "m18814127307@163.com"
- - git add .
- - git commit -m "Update"
- - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
- - sed -i'' "s~git@github.com:beidan/lazeLoadImg.github.io.git~https://${REPO_TOKEN}:x-oauth-basic@github.com/beidan/lazeLoadImg.github.io.git~" _config.yml
-
+ 
 env:
   global:
-  - GH_REF: github.com/beidan/lazeLoadImg.github.io.git
-  - secure: QKvxMK7gVvF0Wnp291Tna1qLQjYT8rNw1gM5W/RT7e8jMuqJfs/qKNRW3qDNvWvvXlM5PR7Yoh1wIWiLMXtNkWHdu64O1Ek0gZowj2oC2XqzVgLeSCTXPc5VK92nbLOtCpoURKGM7aE/9PeTkZyixx9xYsj+AdsXvppeWz4dwOy3Y/tN57h3HH4WvwhMxZik6O7vs+4vMtG5xufdtsB4K8ecyTA30ft4P2/QtTGl8Kku2Fha01/1P3mUJs9W50bQIDTJcKGO8NFqPsrX00vQvsC2l/z0hhmEzvOi25lt5fxOfz/EKBfGStUnxUGfNm37NiMqwKVYsyWaYSOFEBwxI/Eep1VZGvwVd4XsI/avgGMI0H/yqC07dFgWhqlug6TCmiyzTduIm8HWiWVyG9rQTAQTdUeF4IjsND/EyuqrvSd5qIKfmtyGo0VP4jfOUoU7yLqWQ1+NBy1trW1JLEvenSpdGlm73WoLTcvPQbGpOdPvgk7XLubFntb/bc3DNJNZ5u87zyZGjhUeUCFj8MVeIj+H21mzm+aCIJCwnRkrrJch9TpWkNT3bvtoISvTyCzjpybiqxX0U3fjW6yvOG66y5wDn4ypaQSQYzkJNPcz0j7dc0JbQ9bExgJZ5hHmTa+Ts1La+hKs96vBQvpltGqFJUfS0qOQJ02PDSlHrbsPJNs=
+  - GH_REF: "github.com/beidan/lazeLoadImg.github.io.git"
+  - secure: "QKvxMK7gVvF0Wnp291Tna1qLQjYT8rNw1gM5W/RT7e8jMuqJfs/qKNRW3qDNvWvvXlM5PR7Yoh1wIWiLMXtNkWHdu64O1Ek0gZowj2oC2XqzVgLeSCTXPc5VK92nbLOtCpoURKGM7aE/9PeTkZyixx9xYsj+AdsXvppeWz4dwOy3Y/tN57h3HH4WvwhMxZik6O7vs+4vMtG5xufdtsB4K8ecyTA30ft4P2/QtTGl8Kku2Fha01/1P3mUJs9W50bQIDTJcKGO8NFqPsrX00vQvsC2l/z0hhmEzvOi25lt5fxOfz/EKBfGStUnxUGfNm37NiMqwKVYsyWaYSOFEBwxI/Eep1VZGvwVd4XsI/avgGMI0H/yqC07dFgWhqlug6TCmiyzTduIm8HWiWVyG9rQTAQTdUeF4IjsND/EyuqrvSd5qIKfmtyGo0VP4jfOUoU7yLqWQ1+NBy1trW1JLEvenSpdGlm73WoLTcvPQbGpOdPvgk7XLubFntb/bc3DNJNZ5u87zyZGjhUeUCFj8MVeIj+H21mzm+aCIJCwnRkrrJch9TpWkNT3bvtoISvTyCzjpybiqxX0U3fjW6yvOG66y5wDn4ypaQSQYzkJNPcz0j7dc0JbQ9bExgJZ5hHmTa+Ts1La+hKs96vBQvpltGqFJUfS0qOQJ02PDSlHrbsPJNs="
+
